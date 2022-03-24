@@ -1,4 +1,4 @@
-package service.vip;
+package controller.service.vip;
 
 import dao.weather.CityDao;
 import dto.vipInfo.CityDto;

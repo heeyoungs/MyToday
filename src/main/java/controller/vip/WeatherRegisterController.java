@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import service.vip.GetLocationCodeService;
-import service.vip.GetWeatherInfoService;
+import controller.service.vip.GetLocationCodeService;
+import controller.service.vip.GetWeatherInfoService;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;

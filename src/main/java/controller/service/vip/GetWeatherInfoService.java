@@ -1,4 +1,4 @@
-package service.vip;
+package controller.service.vip;
 
 import api.wheatherapi.WeatherAPI;
 import dao.MemberDao;

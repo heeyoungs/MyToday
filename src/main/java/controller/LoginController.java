@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
-import service.vip.GetLocationCodeService;
-import service.vip.GetWeatherInfoService;
-import service.LoginService;
+import controller.service.vip.GetLocationCodeService;
+import controller.service.vip.GetWeatherInfoService;
+import controller.service.LoginService;
 import dto.login.LoginDto;
 
 import javax.servlet.http.Cookie;

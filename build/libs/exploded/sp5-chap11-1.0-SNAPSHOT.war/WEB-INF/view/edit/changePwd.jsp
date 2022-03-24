@@ -4,13 +4,11 @@
 <html>
 <head>
     <title><spring:message code="change.info.title"/></title>
+    <meta http-equiv="Refresh" content="1;url=/myToday">
 </head>
 <body>
 <p>
     <spring:message code="change.info.done"/>
-</p>
-<p>
-    <a href="<c:url value='/myToday'/>">[<spring:message code="go.main.btn"/>]</a>
 </p>
 </body>
 </html>
